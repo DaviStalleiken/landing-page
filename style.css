@@ -14,6 +14,12 @@ body {
     background-color: #1f2937;
     font-size: 18px;
     color: #E5E7EB;
+    height: 100px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
 }
 
 ul {
@@ -38,6 +44,8 @@ a {
 
 .hero {
     background-color: #1f2937;
+    height: fit-content;
+    padding: 50px;
 }
 
 .hero-container {
@@ -67,4 +75,55 @@ button {
     display: inline-block;
     border-radius: 12px;
     margin: 32px;
+}
+
+.cat{
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    border: #1f2937;
+    border-width: 5px;
+    padding: 15px;
+
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    padding: 20px;
+}
+
+.customer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sign {
+    background-color: #3882F6;
+    margin: 64px;
+    padding: 20px;
+    align-items: center;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+}
+
+.call {
+    border-color: white;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
 }

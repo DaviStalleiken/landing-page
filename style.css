@@ -49,10 +49,7 @@ a {
 }
 
 .hero-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 h1 {
@@ -64,6 +61,28 @@ h1 {
 .hero-subtext {
     font-size: 18px;
     color: #E5E7EB;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+
+.container-main {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.button-main {
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.hero-dog {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
 }
 
 button {
@@ -77,13 +96,14 @@ button {
     margin: 32px;
 }
 
-.cat{
+.cat {
     height: 150px;
     width: 150px;
     border-radius: 25px;
-    border: #1f2937;
-    border-width: 5px;
-    padding: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1f2937;
+    padding: 0px;
 
 }
 
@@ -91,6 +111,14 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 25px;
+}
+
+.subtext {
+    margin: 15px;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
 }
 
 .quote {
@@ -115,6 +143,7 @@ button {
     color: #F9FAF8;
     display: flex;
     justify-content: center;
+    border-radius: 25px;
 }
 
 .call {
